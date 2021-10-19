@@ -18,4 +18,4 @@ jobs:
           java-version: '11'
           cache: "maven"
       - name: Build and test with Maven
-        run: mvn package --fil simple-api/pom.xml
+        run: mvn package --fill simple-api/pom.xml
